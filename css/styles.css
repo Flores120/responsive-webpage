@@ -1,0 +1,196 @@
+
+html {
+  box-sizing: border-box;
+}
+body {
+  background-color: #E4E4E4;
+  font: normal 100% Cambria, Georgia, serif;
+  }
+li {
+  float: left;
+  list-style: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #888583;
+  width: 31%;
+  margin-right: 2%;
+  text-align: center;
+}
+
+li:hover {
+  color: red;
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+}
+h1 a {
+    padding-top: 117px;
+    height: 162px;
+    display: block;
+    text-align: center;
+}
+
+h2 {
+  font: normal 2em "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
+    text-align: center;
+    margin-bottom: 0.25em;
+}
+
+h3 {
+  background: url('../img/ornament.png') no-repeat 0 50%;
+  text-align: center;
+}
+h3 b{
+  background: url('../img/bg.png');
+  padding: 0 1em;
+}
+h4 {
+  color: #890101;
+}
+h6 {
+  color: #890101;
+}
+
+.gallery img {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.gallery-tile {
+  display: block;
+  text-align: center;
+  float: left;
+  margin: 10px;
+  font-size: 15px;
+  font-family: "Book Antiqua", "Palatino Linotype", Georgia, serif;
+}
+
+.gallery-tile h4:hover,
+.gallery-tile h6:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.navbar {
+  text-align: center;
+  color: #890101;
+  font: normal 10px Baskerville, Garamond, Palatino, "Palatino Linotype", "Hoefler Text", "Times New Roman", serif;
+  letter-spacing: 0.05em;
+  width: 100%;
+  border-top: none;
+  position: absolute;
+  top: 0;
+}
+.navbar b {
+  font: 16px Baskerville, Garamond, Palatino, "Palatino Linotype", "Hoefler Text", "Times New Roman", serif;
+  letter-spacing: 0.05em;
+}
+#logo img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+footer {
+  clear: both;
+  font-size: .8em;
+  text-align: center;
+}
+@media screen and (min-width: 400px) {
+  .gallery-tile {
+    text-transform: uppercase;
+    width: 30%;
+  }
+  .gallery-tile img {
+    margin-right: 10px;
+    width: 100%;
+  }
+
+  h1 {
+    margin-left: 40px;
+  }
+}
+  @media screen and (min-width: 600px) {
+    li {
+      padding: 20px 20px 20px 1px;
+      float: none;
+      width: 100%;
+    }
+    h1 {
+      background: url('../img/logo-bg.png') no-repeat 50% 0;
+    }
+
+
+    h4 {
+      position: relative;
+      bottom: 20px;
+    }
+    /*.gallery-tile {
+      width: 30%;
+    }
+    .gallery-tile img {
+      margin-right: 10px;
+      width: 100%;
+    }*/
+    .navbar {
+      padding: 0;
+      position: static;
+    }
+
+    .mast {
+      margin-right: 20px;
+      float: left;
+      width: 32%;
+    }
+    .sail {
+      width: 63%;
+      float: right;
+      margin-top: 10%;
+    }
+    #logo img {
+      position: relative;
+      bottom: 50px;
+    }
+  }
+
+    @media screen and (min-width: 1300px) {
+      .gallery-tile {
+        width: 15%;
+      }
+      .gallery-tile img {
+        margin-right: 10px;
+        width: 100%;
+      }
+      .navbar {
+        text-align: center;
+        color: #890101;
+        font-family: Helvetica;
+        width: 100%;
+        border-top: none;
+        position: absolute;
+        top: 50px;
+        left: 0;
+      }
+
+      .navbar li {
+          float: right;
+          list-style: none;
+          padding: 10px 0;
+          border-bottom: 1px solid #888583;
+          width: 21%;
+          margin-right: 2%;
+          text-align: center;
+      }
+
+      .mast {
+        margin-right: 20px;
+        float: left;
+        width: 26%;
+      }
+      .sail {
+        width: 70%;
+        float: right;
+        margin-top: 10%;
+      }
+
+
+    }
